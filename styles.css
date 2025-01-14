@@ -1,0 +1,56 @@
+body{
+    font-family: Tahoma;
+    background-color: #447604;
+    color: #F8F2DC;
+    width: 80%;
+    margin: 0 auto;
+    min-width: 300px;
+    max-width: 500px;
+}
+h1, p {
+    text-align: center;
+}
+h1 {
+    font-family: "Luckiest Guy", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+fieldset {
+    border: none;
+    display: block;
+    width: 100%;
+}
+input, select, textarea {
+    display: block;
+    width: 96%;
+    padding: 5px;
+    margin: 5px auto;
+    background-color: #376101;
+    color: #F8F2DC;
+    border: 1px solid #041B15;
+}
+#dropdown {
+    width: 100%;
+}
+input[type='checkbox'], input[type='radio'] {
+    display: unset;
+    vertical-align: left;
+    width: 10%
+}
+.inline{
+    display: inline-block;
+    width: 90%;
+}
+input[type='submit'] {
+    width: 40%;
+    margin-top: 2em;
+    max-width: 300px;
+    background-color: #F06449;
+    color: #F8F2DC;
+    border: 1px solid #041B15;
+}
+::placeholder {
+    color: #f8f2dc96;   
+}
