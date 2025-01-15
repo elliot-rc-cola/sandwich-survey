@@ -1,11 +1,12 @@
 body{
     font-family: Tahoma;
-    background-color: #447604;
-    color: #F8F2DC;
-    width: 80%;
+    background-color: #F8F2DC;
+    color: #376101;
     margin: 0 auto;
     min-width: 300px;
-    max-width: 500px;
+}
+main {
+    margin-bottom: 50px;
 }
 h1, p {
     text-align: center;
@@ -15,29 +16,45 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 40px;
-    margin-bottom: 0;
+    margin-bottom: -10px;
+}
+form {
+    background-color: #376101;
+    color: #F8F2DC;
+    width: 90%;
+    min-width: 200px;
+    max-width: 500px;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
 }
 fieldset {
+    width: 90%;
     border: none;
     display: block;
-    width: 100%;
+    margin: 5px auto;
 }
 input, select, textarea {
     display: block;
-    width: 96%;
     padding: 5px;
-    margin: 5px auto;
-    background-color: #376101;
-    color: #F8F2DC;
+    margin: 5px 0;
+    background-color: #F8F2DC;
+    color:#041B15;
     border: 1px solid #041B15;
 }
-#dropdown {
+input {
+    width: 97%;
+}
+#dropdown{
     width: 100%;
+}
+textarea {
+    width: 97%;
 }
 input[type='checkbox'], input[type='radio'] {
     display: unset;
-    vertical-align: left;
-    width: 10%
+    width: 20%;
+    text-align: left;
 }
 .inline{
     display: inline-block;
@@ -45,12 +62,23 @@ input[type='checkbox'], input[type='radio'] {
 }
 input[type='submit'] {
     width: 40%;
-    margin-top: 2em;
+    margin: 2em auto auto;
     max-width: 300px;
     background-color: #F06449;
     color: #F8F2DC;
     border: 1px solid #041B15;
 }
 ::placeholder {
-    color: #f8f2dc96;   
+    color: #041b1589;   
+}
+fieldset:last-of-type {
+    padding-bottom: 0;
+}
+footer{
+    background-color: #041B15;
+    height: 5rem;
+    color: #F8F2DC;
+}
+#footer {
+    padding-top: 20px;
 }

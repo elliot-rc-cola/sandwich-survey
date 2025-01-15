@@ -9,43 +9,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Oi&display=swap" rel="stylesheet">
   </head>
   <body>
-    <h1 id='title'>Favourite Sandwich</h1>
-    <p id='description'>What's your favourite sandwich?</p>
-    <form id='survey-form'>
-      <fieldset>
-        <label id='name-label' for='name' class='contact'>Name:  <input id='name' type='text' placeholder='Larry the Cucumber' required/><label/>
-        <label id='email-label' for='email' class='contact' >Email: <input id='email' type='email' placeholder='yourname@mail.com' required/><label/>
-        <label id='number-label' for='number' class='contact' >Phone Number: <input id='number' type='number' min='07000000000' max='07999999999' placeholder='starting with 07'/><label/>
-      </fieldset>
-      <fieldset>Please choose from the following options... 
-        <select id='dropdown'>
-          <option value=''>(Pick Your Favourite)</option>
-          <option value='1'>Ruben</option>
-          <option value='2'>Club</option>
-          <option value='3'>BLT</option>
-          <option value='4'>Salami and Cheese</option>
-          <option value='5'>Bacon, Brie, and Cranberry</option>
-          <option value='6'>Prawn Cocktail</option>
-          <option value='7'>I don't like sandwiches</option>
-        </select>
-      </fieldset>
-      <fieldset>Do you like anything with your sandwich? (Select all that apply) 
-        <label class='inline' for='crisps'><input id='crisps' type='checkbox' value='crisps'/>Crisps</label>
-        <label class='inline'for='cold-beverage'><input id='cold-beverage' type='checkbox' value='cold-beverage'/>Cold Beverage</label>
-        <label class='inline' for='hot-beverage'><input id='hot-beverage' type='checkbox' value='hot-beverage'/>Hot Beverage</label>
-        <label class='inline' for='sauce'><input id='sauce' type='checkbox' value='sauce'/>Sauce</label>
-        <label class='inline' for='pickles'><input id='pickles' type='checkbox' value='pickles'/>Pickles</label>
-      </fieldset>
-      <fieldset> How often do you eat sandwiches?
-        <label class='inline' for='often'><input id='often' type='radio' name='frequency' value='often' checked/>Often</label>
-        <label class='inline' for='sometimes'><input id='sometimes' type='radio' name='frequency' value='sometimes'/>Sometimes</label>
-        <label class='inline' for='rarely'><input id='rarely' type='radio' name='frequency' value='rarely'/>Rarely</label>
-        <label class='inline' for='never'><input id='never' type='radio' name='frequency' value='never'/>Never</label>
-      </fieldset>
-      <fieldset>Anything else?
-        <textarea rows='3' cols='50' placeholder="You didn't include my favourite sandwich."></textarea>
-        <input id='submit' type='submit' value='Submit'>
-      </fieldset>
-    </form>
+    <main>
+      <h1 id='title'>Favourite Sandwich</h1>
+      <p id='description'>What's your favourite sandwich?</p>
+      <form id='survey-form'>
+        <fieldset>
+          <label id='name-label' for='name' class='contact'>Name:  <input id='name' type='text' placeholder='Larry the Cucumber' required/><label/>
+          <label id='email-label' for='email' class='contact' >Email: <input id='email' type='email' placeholder='yourname@mail.com' required/><label/>
+          <label id='number-label' for='number' class='contact' >Phone Number: <input id='number' type='number' min='07000000000' max='07999999999' placeholder='starting with 07'/><label/>
+        </fieldset>
+        <fieldset>Please choose from the following options... 
+          <select id='dropdown'>
+            <option value=''>(Pick Your Favourite)</option>
+            <option value='1'>Ruben</option>
+            <option value='2'>Club</option>
+            <option value='3'>BLT</option>
+            <option value='4'>Salami and Cheese</option>
+            <option value='5'>Bacon, Brie, and Cranberry</option>
+            <option value='6'>Prawn Cocktail</option>
+            <option value='7'>I don't like sandwiches</option>
+          </select>
+        </fieldset>
+        <fieldset>Do you like anything with your sandwich? (Select all that apply) 
+          <label class='inline' for='crisps'><input id='crisps' type='checkbox' value='crisps'/>Crisps</label>
+          <label class='inline'for='cold-beverage'><input id='cold-beverage' type='checkbox' value='cold-beverage'/>Cold Beverage</label>
+          <label class='inline' for='hot-beverage'><input id='hot-beverage' type='checkbox' value='hot-beverage'/>Hot Beverage</label>
+          <label class='inline' for='sauce'><input id='sauce' type='checkbox' value='sauce'/>Sauce</label>
+          <label class='inline' for='pickles'><input id='pickles' type='checkbox' value='pickles'/>Pickles</label>
+        </fieldset>
+        <fieldset> How often do you eat sandwiches?
+          <label class='inline' for='often'><input id='often' type='radio' name='frequency' value='often' checked/>Often</label>
+          <label class='inline' for='sometimes'><input id='sometimes' type='radio' name='frequency' value='sometimes'/>Sometimes</label>
+          <label class='inline' for='rarely'><input id='rarely' type='radio' name='frequency' value='rarely'/>Rarely</label>
+          <label class='inline' for='never'><input id='never' type='radio' name='frequency' value='never'/>Never</label>
+        </fieldset>
+        <fieldset>Anything else?
+          <textarea rows='3' placeholder="You didn't include my favourite sandwich."></textarea>
+          <input id='submit' type='submit' value='Submit'>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <p id="footer">Proudly made by Morning Tea</p>
+    </footer>
   </body>
 </html>
